@@ -1,0 +1,10 @@
+.navbar {
+  background-color: rgb(19, 39, 67);
+}
+
+.navbar-logo {
+  width: 40px;
+}
+body {
+  background-color: #fadcdc !important;
+}

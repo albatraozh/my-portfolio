@@ -70,6 +70,16 @@
 .app-info-text {
   width: 100%;
 }
+.about-paragraphs {
+  margin: 40px;
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
 body {
-  background-color: #fadcdc !important;
+  background-color: #f8e9e9 !important;
 }

@@ -90,3 +90,7 @@
 body {
   background-color: #f7f3f3 !important;
 }
+.certificates {
+  width: 100%;
+  height: auto;
+}

@@ -56,7 +56,8 @@
 }
 
 .app-pic1 {
-  width: 100%;
+  max-width: 100%;
+  max-height: auto;
   border-radius: 20px;
 }
 .app-pic2 {

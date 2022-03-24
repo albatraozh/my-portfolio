@@ -15,11 +15,8 @@
   margin-top: 110px;
   background-color: rgba(19, 39, 67, 0.2);
   box-shadow: inset;
-  padding: 20px 40px;
+  padding: 10px 40px;
   border-radius: 10px;
-}
-body {
-  background-color: #fadcdc !important;
 }
 .navigation-links {
   display: flex;
@@ -31,7 +28,7 @@ body {
   margin: 20px;
 }
 
-.contact-link {
+.my-btn {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
@@ -39,4 +36,33 @@ body {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+.apps {
+  margin: 50px;
+}
+.computer-gif {
+  width: 8%;
+  display: block;
+  margin: 0 auto;
+}
+.app-info-text-bg {
+  background-color: rgb(255, 181, 181);
+  border-radius: 10px;
+}
+.app-pic-bg {
+  background-color: rgb(19, 39, 67);
+  padding: 50px 50px;
+  border-radius: 10px;
+}
+
+.app-pic {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.app-info-text {
+  width: 100%;
+}
+body {
+  background-color: #fadcdc !important;
 }

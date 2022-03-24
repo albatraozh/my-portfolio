@@ -37,6 +37,21 @@
   box-shadow: var(--box-shadow);
   color: white;
 }
+.my-btn-cer {
+  border-radius: 4px;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.my-btn-cer:hover {
+  background: rgb(250, 251, 252, 0.5);
+  box-shadow: none;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
 .my-btn:hover {
   padding: 18px 13px;
   background: rgb(250, 251, 252, 0.5);

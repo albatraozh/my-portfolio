@@ -150,3 +150,7 @@ a {
   height: auto;
   border-radius: 5px;
 }
+.c-icon {
+  width: 45px;
+  margin-bottom: 20px;
+}

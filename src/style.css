@@ -113,7 +113,7 @@
   font-family: "Dancing Script", cursive;
 
   font-size: 120%;
-  padding: 25px;
+  padding: 10px;
   background-color: rgb(19, 39, 67);
   color: white;
   border-radius: 10px 10px 0 0;
@@ -130,12 +130,12 @@ body {
   background-color: #f7f3f3 !important;
 }
 h1,
-h2,
 h3 {
   font-family: "Playfair Display", serif;
 }
 
 p,
+h2,
 a {
   font-family: "EB Garamond", serif;
   font-size: 110%;

@@ -1,5 +1,5 @@
 :root {
-  --primary-color: rgb(64, 112, 136);
+  --primary-color: rgb(64, 112, 136, 0.6);
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -13,15 +13,11 @@
 }
 .my-info {
   margin-top: 110px;
-  background: linear-gradient(
-    179.1deg,
-    rgb(247, 238, 238) -1.9%,
-    rgb(247, 202, 201) 44.9%,
-    rgb(145, 168, 208) 96.1%
-  );
+  background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
   box-shadow: inset;
   padding: 10px 40px;
   border-radius: 10px;
+  box-shadow: var(--box-shadow);
 }
 .navigation-links {
   display: flex;
@@ -75,22 +71,23 @@
 .app-info-text-bg {
   background-color: rgb(255, 181, 181, 0.6);
   border-radius: 10px;
-}
-.app-pic-bg {
-  padding: 50px 50px;
-  border-radius: 10px;
+  box-shadow: var(--box-shadow);
 }
 
 .app-pic1 {
   max-width: 100%;
   max-height: auto;
   border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  display: block;
+  margin: 0 auto;
 }
 .app-pic2 {
   width: 70%;
   border-radius: 10px;
   display: block;
   margin: 0 auto;
+  box-shadow: var(--box-shadow);
 }
 
 .app-info-text {
@@ -107,7 +104,7 @@
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color: black;
   font-size: 20px;
   text-decoration: none;
 }
@@ -121,6 +118,9 @@
   color: white;
   border-radius: 10px 10px 0 0;
   margin-top: 30px;
+}
+.theCoder a {
+  font-family: "Dancing Script", cursive;
 }
 .app-icon {
   text-decoration: none;
@@ -148,4 +148,5 @@ a {
 .certificates {
   width: 100%;
   height: auto;
+  border-radius: 5px;
 }
